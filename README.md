@@ -11,13 +11,64 @@ The process of learning begins with data, such as, direct experience, or instruc
 This repository is about different Machine Learning algorithm approaches as per the industry practices.
 
 ## Table of Contents
-- [Telecom Churn Prediction](#section1)<br>
-- [Credit Fraud Detection](#section2)<br>
-- [Spam Detection](#section3)<br>
-- [Customer Segmentation using RFM Analysis](#section4)<br>
-
+- [Profit Prediction](#section1)<br>
+- [Classification - Logistic Reg](#section2)<br>
+- [SVM Classification](#section3)<br>
+- [K-Means Clustering](#section4)<br>
+- [Telecom Churn Prediction](#section5)<br>
+- [Credit Fraud Detection](#section6)<br>
+- [Spam Detection](#section7)<br>
+- [Customer Segmentation using RFM Analysis](#section8)<br>
 ___
 <a id=section1></a>
+### [Profit Prediction](./Profit%20Prediction)
+![image.png](image/Profit%20prediction.png)
+- You are the CEO of restaurant Franchise and are considering different cities for opening new outlet.
+- The chain already has trucks in various cities and you have data for profits and population from the cities.
+- You would like to use this data to help you select which city to expand to next.
+- The dataset contains in the data folder of this Project.
+- [Link for the Jupyter notebook](./Profit%20Prediction/Profit_Prediction.ipynb)
+___
+<a id=section2></a>
+### [Probability of admission](./Classification-Logistic%20Reg)
+![image.png](image/Chances-of-admission.png)
+- You are the administrator of a university department and you want to determine each applicant's chance of admission based on their
+results on two exams.
+- You have historical data from previous applicants that you can use as a training set for logistic regression.
+- For each training example, you have the applicant's scores on two exams and the admissions decision.
+- [Link for the Jupyter notebook](./Classification-Logistic%20Reg/Prob_of_admission.ipynb)
+___
+### [Accepting or Rejecting Microchips based on test results](./Classification-Logistic%20Reg)
+![image.jpg](image/microchip-test.jpg)
+- Suppose you are the product manager of the factory and you have the test results for some microchips on two different tests.
+- From these two tests, you would like to determine whether the microchips should be accepted or rejected.
+- To help you make the decision, you have a dataset of test results on past microchips, from which you can build a logistic regression model.
+- [Link for the Jupyter notebook](./Classification-Logistic%20Reg/Microchip_test.ipynb)
+
+___
+<a id=section3></a>
+### [SVM Classification](./SVM-Classification)
+![image.png](image/svm.png)
+- We will see different examples of how SVM works.
+- On 2D Dataset, with different values of C and Sigma usign Gaussian Kernels.
+- On Trained dataset using learning best parameters from the function and cross validation.
+- Visualizing linear and non-linear decision boundaries by SVM Classification.
+- [Link for the Jupyter notebook](./SVM-Classification/SVM.ipynb)
+___
+<a id=section4></a>
+### [K-Means Clustering](./KmeansCluster)
+## Introduction
+
+Who is your Customer? Sometime it is not very obvious or short to answer this. There are lots of ways to classify customers and divided them by groups. But since we have data, let's use data approach to answer this question.<br><br>
+When you have data -- like a list of customers and what they bought -- and you need to create groups with similar characterestics using this data, we need a clustering approach.<br>
+![image.png](image/clustering.png)
+- __Clustering__ is part of the unsupervised machine learning techniques.
+- It is unsupervised as the machine has no previous information about how it should group the entities.
+- They try to create clusters with similar entities by analysing how close they are one from another.
+- [Link for the Jupyter notebook](./KmeansCluster/kmeans.ipynb)
+
+___
+<a id=section5></a>
 ### [Telecom Churn Prediction](./TelecomChurn)
 ![image.jpg](image/telecom.jpg)<br><br>
 - A churn with respect to the Telecom industry, is defined as the percentage of __subscribers moving__ from a specific service to a service provider to another in a period of time.
@@ -27,7 +78,7 @@ ___
 
 
 ___
-<a id=section2></a>
+<a id=section6></a>
 ### [Credit Fraud Detection](./CreditCardFraud)
 ![image.jpg](image/fraud.jpg)<br><br>
 - Credit card fraud is a wide-ranging term for __theft__ and __fraud committed__ using or involving a payment card, such aas credit or debit card, as  __fraudulent source__ of funds in a transaction. 
@@ -38,7 +89,7 @@ ___
 
 
 ___
-<a id=section3></a>
+<a id=section7></a>
 ### [Spam detection](./SpamDetection)
 ![image.png](image/spam.png)<br><br>
 - This is a beginner's example of __document classification__ task which involves __classifying__ an email as spam or not spam mail.
@@ -47,7 +98,7 @@ ___
 
 
 ___
-<a id=section4></a>
+<a id=section8></a>
 ### [Customer Segmentation using RFM Analysis](./CustomerSegmentationUsingRFM)
 ![image.jpg](image/rfm1.jpg)<br><br>
 - Businesses that __lack__ the monetary aspect, like __viewership__, __readership__, or __surfing-oriented products__, could use __Engagement parameters__ instead of Monetary factors.
