@@ -109,3 +109,8 @@ ___
 
 ## Projects in execution
 
+<p align="center">
+  Visitor Counter<br><br>
+<img src="https://profile-counter.glitch.me/NarendraSP/count.svg" />
+</p>
+
